@@ -6,6 +6,14 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      '2xl': '1400px',
+      'xl': '1200px',
+      'custom': '1100px',
+      'lg': '1024px',
+      'md': '768px',
+      'sm': '480px',
+    },
     extend: {
       colors: {
         blue: "#23375F",
@@ -16,7 +24,12 @@ module.exports = {
         white: "#FFFFFF",
       },
       fontSize: {
-        'xl': ['3.4375rem', {
+       
+        '2xl': ['3.4375rem', {
+          lineHeight: '100%',
+          letterSpacing: '-3%',
+        }],
+        'xl': ['2.1875rem', {
           lineHeight: '100%',
           letterSpacing: '-3%',
         }],
@@ -24,7 +37,7 @@ module.exports = {
           lineHeight: '100%',
           letterSpacing: '0%',
         }],
-        'md': ['1.25rem', {
+        'md': ['1.375rem', {
           lineHeight: '100%',
           letterSpacing: '0%',
         }],
