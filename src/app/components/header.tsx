@@ -1,7 +1,7 @@
 "use client";
 
 import { ReactElement, useState } from "react";
-import Container from "./container";
+import Container from "./ui/container";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { usePathname } from "next/navigation";

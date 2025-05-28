@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import Container from "../_ui/container";
+import Container from "../components/ui/container";
 
 export default function ContactUs(): ReactElement {
   return (
