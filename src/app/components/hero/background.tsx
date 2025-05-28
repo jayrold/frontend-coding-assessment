@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Background(): ReactElement {
   return (
-    <div className="absolute left-0 top-0 h-[39rem]  sm:h-[35.875rem] w-full bg-gradient-to-t from-[#AB6F02] to-transparent">
+    <div className="absolute left-0 top-0 h-[39rem] md:h-[35.875rem] w-full bg-gradient-to-t from-[#AB6F02] to-transparent">
       <div className="w-full h-full relative overflow-hidden">
         <div className="w-48 h-full z-[1] absolute -left-1/4 md:left-0 top-0 bg-gradient-to-r from-[#AB6F02] to-transparent" />
         <div className="w-48 h-full z-[1] absolute -right-1/4 md:right-0 top-0 bg-gradient-to-l from-[#AB6F02] to-transparent" />
