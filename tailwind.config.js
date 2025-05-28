@@ -8,7 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // You can add custom colors here
+        blue: "#23375F",
+        black: "#000000",
+        white: "#FFFFFF",
+      },
+      spacing: {
+        '90': '90rem',
       },
       fontFamily: {
         // You can add custom fonts here
