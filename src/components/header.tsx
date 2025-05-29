@@ -10,7 +10,7 @@ import Image from "next/image";
 const navItems = [
   {
     label: "Help & Advice",
-    href: "/help-advice",
+    href: "/help-and-advice",
   },
   {
     label: "Locations",

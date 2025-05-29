@@ -1,10 +1,6 @@
 import { ReactElement } from "react";
-import Container from "../components/ui/container";
+import Placeholder from "@/components/placeholder";
 
 export default function ContactUs(): ReactElement {
-  return (
-    <Container>
-      <h1>Contact Us</h1>
-    </Container>
-  )
+  return <Placeholder title="Contact Us" />
 }

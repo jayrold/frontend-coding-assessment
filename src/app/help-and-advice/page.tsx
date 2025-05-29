@@ -1,10 +1,6 @@
 import { ReactElement } from "react";
-import Container from "../components/ui/container";
+import Placeholder from "@/components/placeholder";
 
 export default function HelpAndAdvice(): ReactElement {
-  return (
-    <Container>
-      <h1>Help & Advice</h1>
-    </Container>
-  )
+  return <Placeholder title="Help & Advice" />
 }
